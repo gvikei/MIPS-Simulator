@@ -30,7 +30,7 @@ To do:
 Nov 02, 15:22 PM
 - Program is finished with (seemingly) no bugs in Normal mode.
 - Debug mode has bugs when user input required. 
-  Can by pass by repeatedly enter same input until PC and Instr are printed
+  Can bypass by repeatedly enter same input until PC and Instr are printed
 - Needs code review
 
 ----------------------
