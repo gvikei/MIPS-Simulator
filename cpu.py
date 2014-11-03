@@ -181,9 +181,11 @@ class CPU(object):
             #print
         
         except TypeError:
+            # print "Unexpected error:", sys.exc_info()[0]
             pass
         
         except KeyError:
+            # print "Unexpected error:", sys.exc_info()[0]
             pass
     
     

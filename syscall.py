@@ -120,9 +120,7 @@ class SysCall(object):
     def _ReadInteger(self):
         """Reads an integer from stdin (the keyboard), place it in register $2."""
         n = raw_input('')
-        while not n:
-            n = raw_input('')
-            self.regs[2] = int(n)
+        self.regs[2] = int(n)
                 
     def _ReadString(self):
         """Reads a string into address pointed to by $a0=$4.
