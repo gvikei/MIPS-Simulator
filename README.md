@@ -16,9 +16,13 @@ For example:
 >python test_cpu.py testFiles/printTriangle.txt
 
 The following instruction files are provided in testFiles folder:
+
 1. count.txt - Prints out 1 to 10
+
 2. fizzbuzz.txt - Prints out the FizzBuzz program
+
 3. HelloWorld.txt - Prints out "Hello, World!"
+
 4. printTriangle.txt - Prints out the Pascal triangle with custom size.
 
 ****
