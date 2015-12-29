@@ -1,4 +1,4 @@
-PS-Simulator
+MIPS-Simulator
 ==============
 ###Program description
 
