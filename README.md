@@ -1,13 +1,13 @@
 MIPS-Simulator
 ==============
-###Program description
+### Program description
 
 A simulator that can load and run full MIPS programs (similar to, but more basic than SPIM or MARS).
 The simulator runs on the command line and takes as input a text file.
 
 ****
 
-###How to run
+### How to run
 
 Run test_cpu.py with the following format:
 >python test_cpu.py [instruction_file]
@@ -27,7 +27,7 @@ The following instruction files are provided in testFiles folder:
 
 ****
 
-###Input description
+### Input description
 
  1. The file format of the input is in the ASCII format, rather than the binary format.   
  2. Lines of the file will specify either memory values or register values.
@@ -54,7 +54,9 @@ Another example, which contains multiple data words on the same line, and is giv
 In this case, the 4 words spell out the text "Hello World" in ASCII. The encoding places the low order byte first in the character stream. Consequently, the word 0x6c6c6548 spells out the letters "Hell", but from right to left (e.g. 0x48='H', 0x65='e', and 0x6c='l').
 
 **The sample input files can be found in 'testFiles' folder.**
+
 ****
+
 ### Supported MIPS instructions:
 
 | Instructions | Encoding                           | Operation                                                                             |
@@ -104,7 +106,9 @@ In this case, the 4 words spell out the text "Hello World" in ASCII. The encodin
 | syscall      | 0b00000000000000000000000000001100 | advance_pc (4)                                                                        |
 | xor          | 0b00000000000000000000000000100110 | $d = $s ^ $t; advance_pc (4);                                                         |
 | xori         | 0b00111000000000000000000000000000 | $t = $s ^ imm; advance_pc (4);                                                        |
+
 ****
+
 ### Supported System calls:
 | Value | Name                          | Description                                                                             |
 | ---          | ---                                | ---                                                                                   |
